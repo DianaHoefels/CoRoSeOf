@@ -10,7 +10,7 @@ To cite this dataset, use: TBA
 This project is organized into the following folders:
 - corpus (CoRoSeOf in .csv and .xlsx files)
 - docs (annotation guidelines and keywords used to query the data)
-- scripts (TBA)
+- scripts (corpus data processing scripts)
 
 ## Acknowledgements
 
