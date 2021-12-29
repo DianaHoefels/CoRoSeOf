@@ -1,15 +1,18 @@
 ## CoRoSeOf: An annotated Corpus of Romanian Sexist and Offensive Language
 
-#### Description
-
 Data set includes 39245 manually annotated Romanian tweets containing sexist (3924 samples) and offensive content (4310 samples). 
 
 The file contains the tweet id, sampling technique, annotator id, annotator gender, majority vote labels, and final labels.
 To cite this dataset, use: TBA
 
-#### Folder Structure
+## Folder Structure
 
-#### Acknowledgements
+This project is organized into the following folders:
+- corpus (CoRoSeOf in .csv and .xlsx files)
+- docs (annotation guidelines and keywords used to query the data)
+- scripts (TBA)
+
+## Acknowledgements
 
 The annotators team (in alphabetical order), Anamaria Andrei, Carmen Tuns, Costel Olaru, Cristiana Giurca, Diana Stanciu, Edward Bojboi, Octavia Cojocaru, Raluca Ardeaun, Roberta Recalo and Tiberiu Tomescu from [Interdisciplinary Center of Gender Studies - West University of Timișoara.](www.genderstudies.uvt.ro)
 
