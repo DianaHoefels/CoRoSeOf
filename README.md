@@ -8,7 +8,7 @@ To cite this dataset, use: TBA
 ## Folder Structure
 
 This project is organized into the following folders:
-- corpus (CoRoSeOf in .csv and .xlsx files)
+- corpus (CoRoSeOf .tsv file)
 - docs (annotation guidelines and keywords used to query the data)
 - scripts (corpus data processing scripts)
 
