@@ -1,6 +1,7 @@
 ## CoRoSeOf: An annotated Corpus of Romanian Sexist and Offensive Language
 
-CoRoSeOf (ISLRN ), a manually annotated corpus of Romanian sexist and offensive language, it includes 39245 tweets containing sexist (3924 samples) and offensive content (4310 samples). 
+CoRoSeOf (ISLRN ), a manually annotated corpus of Romanian sexist and offensive language, it includes 39245 tweets containing 3924 sexist samples, and 4310 offensive samples.
+
 
 The file contains the tweet id, sampling technique, annotator id, annotator gender, majority vote labels, and final labels.
 To cite this dataset, use: TBA
