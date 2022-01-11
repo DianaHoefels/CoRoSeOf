@@ -4,7 +4,7 @@ CoRoSeOf (ISLRN ), a manually annotated corpus of Romanian sexist and offensive 
 
 
 The file contains the tweet id, sampling technique, annotator id, annotator gender, majority vote labels, and final labels.
-To cite this dataset, use: TBA
+To cite this dataset, please use: TBA
 
 ## Folder Structure
 
