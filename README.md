@@ -18,8 +18,6 @@ Contributors names and contact info:
   <img align="left" alt="LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 </a>
 
-<br/>
-
 [Çağrı Çöltekin](http://coltekin.net/cagri/)
 
 [Irina Diana Mădroane](irina.madroane@e-uvt.ro)
