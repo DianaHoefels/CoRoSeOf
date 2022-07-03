@@ -1,10 +1,6 @@
 ## CoRoSeOf: An annotated Corpus of Romanian Sexist and Offensive Language
 
-CoRoSeOf is a manually annotated corpus of Romanian sexist and offensive language, it includes roughly 40k samples divided into 10% sexist, and 11% offensive.
-
-
-This file contains tweet is, sampling technique, annotator id and gender, non-aggregated annotations, and majority vote labels. 
-
+CoRoSeOf is a collection of Romanian sexist and offensive samples, including approximately 40k samples, of which 10% are sexist, and 11% offensive.
 
 Cite this dataset:
 
@@ -25,9 +21,8 @@ Cite this dataset:
 ## Folder Structure
 
 This project is organized into the following folders:
-- corpus (it contains .tsv file)
+- corpus (contains tweet id, sampling technique, annotator id and gender, non-aggregated annotations, and majority vote labels)
 - docs (annotation guidelines and keywords used to query the data)
-- scripts (corpus data processing scripts)
 
 ## Authors
 
