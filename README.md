@@ -2,6 +2,27 @@
 
 CoRoSeOf is a collection of Romanian sexist and offensive samples, including approximately 40k samples, of which 10% are sexist, and 11% offensive.
 
+
+## Folder Structure
+
+This project is organized into the following folders:
+- corpus (contains tweet id, sampling technique, annotator id and gender, non-aggregated annotations, and majority vote labels)
+- docs (annotation guidelines and keywords used to query the data)
+
+## Authors
+
+Contributors names and contact info:
+
+[Diana Constantina Höfels](diana-constantina.hoefels@student.uni-tuebingen.de)
+
+[Çağrı Çöltekin](http://coltekin.net/cagri/)
+
+[Irina Diana Mădroane](irina.madroane@e-uvt.ro)
+
+## License
+
+The corpus can be used under the terms of [CC-BY-SA](https://github.com/DianaHoefels/CoRoSeOf/blob/main/LICENSE).
+
 Cite this dataset:
 
 ```
@@ -18,23 +39,8 @@ Cite this dataset:
   url       = {https://aclanthology.org/2022.lrec-1.243}
 }
 ```
-## Folder Structure
-
-This project is organized into the following folders:
-- corpus (contains tweet id, sampling technique, annotator id and gender, non-aggregated annotations, and majority vote labels)
-- docs (annotation guidelines and keywords used to query the data)
-
-## Authors
-
-Contributors names and contact info:
-
-[Diana Constantina Höfels](diana-constantina.hoefels@student.uni-tuebingen.de)
-[Çağrı Çöltekin](http://coltekin.net/cagri/)
-[Irina Diana Mădroane](irina.madroane@e-uvt.ro)
-
 ## Acknowledgements
 
 The annotators team (in alphabetical order), Anamaria Andrei, Raluca Ardeaun, Edward Bojboi, Octavia Cojocaru, Cristiana Giurcă, Costel Olaru, Roberta Recalo, Diana Stanciu, Tiberiu Tomescu and Carmen Tuns, from [Interdisciplinary Center of Gender Studies - West University of Timișoara.](www.genderstudies.uvt.ro)
 
 This study utilized Twitter data sets and the content provided remains subject to the terms and conditions of Twitter [Twitter's Developer Agreement & Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy), and must agree to the [Twitter Terms of Service, Privacy Policy](https://twitter.com/en/tos), [Developer Agreement](https://developer.twitter.com/en/developer-terms/agreement), and [Developer Policy](https://developer.twitter.com/en/developer-terms/policy).
-The corpus can be used under the terms of [CC-BY-SA](https://github.com/DianaHoefels/CoRoSeOf/blob/main/LICENSE).
