@@ -15,6 +15,16 @@ Contributors names and contact info:
 
 [Diana Constantina Höfels](diana-constantina.hoefels@student.uni-tuebingen.de)
 
+<a target="_blank" href="https://www.linkedin.com/in/aryclenio-barros-060322135/">
+  <img align="left" alt="LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+</a>
+<a target="_blank" href="mailto:diana-constantina.hoefels@student.uni-tuebingen.de">
+  <img align="left" alt="Gmail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />
+</a>
+<a target="_blank" href="mailto:diana.hoefels@gmail.com">
+  <img align="left" alt="Gmail" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />
+</a>
+
 [Çağrı Çöltekin](http://coltekin.net/cagri/)
 
 [Irina Diana Mădroane](irina.madroane@e-uvt.ro)
