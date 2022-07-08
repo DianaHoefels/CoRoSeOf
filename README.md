@@ -26,7 +26,7 @@ Contributors names and contact info:
 
 The corpus can be used under the terms of [CC-BY-SA](https://github.com/DianaHoefels/CoRoSeOf/blob/main/LICENSE).
 
-Cite this dataset:
+Cite us
 
 ```
 @InProceedings{hoefels-ltekin-mdroane:2022:LREC,
