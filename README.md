@@ -34,7 +34,7 @@ Cite us
 
 ```
 @InProceedings{hoefels-ltekin-mdroane:2022:LREC,
-  author    = {Hoefels, Diana Constantina  and  Ã‡Ã¶ltekin, Ã‡aÄŸrÄ±  and  MÄƒdroane, Irina Diana},
+  author    = {Hoefels, Diana Constantina,  Çöltekin, Çağrı  and  Mădroane, Irina Diana},
   title     = {CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Tweets},
   booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
   month          = {June},
