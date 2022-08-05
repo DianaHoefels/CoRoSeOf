@@ -26,6 +26,10 @@ Contributors names and contact info:
 
 The corpus can be used under the terms of [CC-BY-SA](https://github.com/DianaHoefels/CoRoSeOf/blob/main/LICENSE).
 
+## Journal Paper
+
+[CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Tweets](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.243.pdf)
+
 Cite us
 
 ```
