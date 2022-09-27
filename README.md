@@ -18,9 +18,9 @@ Contributors names and contact info:
   <img align="left" alt="LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 </a>
 
-[Çağrı Çöltekin](http://coltekin.net/cagri/)
+[Dr. Çağrı Çöltekin](http://coltekin.net/cagri/)
 
-[Irina Diana Mădroane](irina.madroane@e-uvt.ro)
+[Dr. Irina Diana Mădroane](irina.madroane@e-uvt.ro)
 
 ## License
 
