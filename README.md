@@ -28,6 +28,8 @@ The corpus can be used under the terms of [CC-BY-SA](https://github.com/DianaHoe
 
 ## Journal Paper
 
+Accepted at LREC2022 
+
 [CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Tweets](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.243.pdf)
 
 Cite us
