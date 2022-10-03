@@ -32,7 +32,7 @@ Accepted at LREC2022
 
 [CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Tweets](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.243.pdf)
 
-Cite us
+Cite us:
 
 ```
 @InProceedings{hoefels-ltekin-mdroane:2022:LREC,
