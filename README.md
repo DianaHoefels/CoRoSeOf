@@ -1,6 +1,6 @@
 ## CoRoSeOf: An annotated Corpus of Romanian Sexist and Offensive Language
 
-CoRoSeOf is a collection of Romanian sexist and offensive samples, including approximately 40k samples, of which 10% are sexist, and 11% offensive.
+$\color{red}{CoR}\color{yellow}{oS}\color{blue}{eOf}$ is a collection of Romanian sexist and offensive samples, including approximately 40k samples, of which 10% are sexist, and 11% offensive.
 
 
 ## Folder Structure
@@ -14,9 +14,9 @@ This project is organized into the following folders:
 Contributors names and contact info:
 
 [Diana Constantina Höfels](diana-constantina.hoefels@student.uni-tuebingen.de)
-<a target="_blank" href="https://www.linkedin.com/in/diana-hoefels-6668b776/">
+<!--a target="_blank" href="https://www.linkedin.com/in/diana-hoefels-6668b776/">
   <img align="left" alt="LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-</a>
+</a-->
 
 [Dr. Çağrı Çöltekin](http://coltekin.net/cagri/)
 
@@ -35,6 +35,7 @@ Accepted at LREC2022
 Cite us:
 
 ```
+
 @InProceedings{hoefels-ltekin-mdroane:2022:LREC,
   author    = {Hoefels, Diana Constantina,  Çöltekin, Çağrı  and  Mădroane, Irina Diana},
   title     = {CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Tweets},
