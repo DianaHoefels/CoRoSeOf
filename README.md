@@ -13,14 +13,11 @@ This project is organized into the following folders:
 
 Contributors names and contact info:
 
-[Diana Constantina Höfels](diana-constantina.hoefels@student.uni-tuebingen.de)
-<!--a target="_blank" href="https://www.linkedin.com/in/diana-hoefels-6668b776/">
-  <img align="left" alt="LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-</a-->
+Diana Constantina Höfels: diana-constantina.hoefels@student.uni-tuebingen.de
 
 [Dr. Çağrı Çöltekin](http://coltekin.net/cagri/)
 
-[Dr. Irina Diana Mădroane](irina.madroane@e-uvt.ro)
+Dr. Irina Diana Mădroane: irina.madroane@e-uvt.ro
 
 ## License
 
