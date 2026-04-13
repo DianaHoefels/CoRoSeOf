@@ -1,34 +1,58 @@
-## CoRoSeOf: An annotated Corpus of Romanian Sexist and Offensive Language
+## CoRoSeOf. An Annotated Corpus of Romanian Sexist and Offensive Language
 
- A collection of Romanian sexist and offensive samples, including approximately 40k samples, of which ≈10% are sexist, and ≈11% offensive.
+CoRoSeOf is a Romanian corpus of social media content annotated for sexist and offensive language. It contains approximately **40,000 samples**, of which around **10% are labeled as sexist** and **11% as offensive**.
+
+To the best of our knowledge, CoRoSeOf is **the first annotated corpus of sexist and offensive language for Romanian**, and **the largest annotated corpus of its kind worldwide**.
+
+## Dataset Format
+
+The corpus includes the following columns:
+
+- **ID**
+- **Sample**
+- **Text**
+- **Annotator 1**
+- **Gender 1**
+- **Answer 1**
+- **Annotator 2**
+- **Gender 2**
+- **Answer 2**
+- **Annotator 3**
+- **Gender 3**
+- **Answer 3**
+- **Majority Vote**
+- **Final Labels**
 
 ## Folder Structure
 
-This project is organized into the following folders:
-- corpus (contains tweet id, sampling technique, annotator id and gender, non-aggregated annotations, and majority vote labels)
-- docs (annotation guidelines and keywords used to query the data)
+This repository is organized as follows:
+
+- **corpus/**, contains tweet IDs, sampling technique, annotator IDs and gender, non-aggregated annotations, majority-vote labels, and final labels
+- **docs/**, contains the annotation guidelines and the keyword lists used to collect the data
 
 ## Authors
 
-Contributors names and contact info:
+- **Diana Constantina Höfels**  
+  diana-constantina.hoefels@student.uni-tuebingen.de
 
-Diana Constantina Höfels: diana-constantina.hoefels@student.uni-tuebingen.de
+- **Dr. Çağrı Çöltekin**  
+  http://coltekin.net/cagri/
 
-[Dr. Çağrı Çöltekin](http://coltekin.net/cagri/)
-
-Dr. Irina Diana Mădroane: irina.madroane@e-uvt.ro
+- **Dr. Irina Diana Mădroane**  
+  irina.madroane@e-uvt.ro
 
 ## License
 
-The corpus can be used under the terms of [CC-BY-SA](https://github.com/DianaHoefels/CoRoSeOf/blob/main/LICENSE).
+The corpus is distributed under the terms of the [CC BY-SA license](https://github.com/DianaHoefels/CoRoSeOf/blob/main/LICENSE).
 
-## Journal Paper
+## Paper
 
-Accepted at LREC2022 
+This dataset was presented at **LREC 2022**:
 
-[CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Tweets](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.243.pdf)
+**Hoefels, D. C., Çöltekin, Ç., & Mădroane, I. D. (2022). _CoRoSeOf. An Annotated Corpus of Romanian Sexist and Offensive Tweets_.**  
+[Read the paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.243.pdf)
 
-Kindly provide proper citations and references to acknowledge our contributions when utilizing or mentioning our work in your endeavors:
+If you use this corpus in your research, please cite:
 
 ```
 
