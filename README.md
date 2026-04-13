@@ -33,7 +33,7 @@ This repository is organized as follows:
 ## Authors
 
 - **Diana Constantina Höfels**  
-  diana-constantina.hoefels@student.uni-tuebingen.de
+  diana.hoefels@gmail.com
 
 - **Dr. Çağrı Çöltekin**  
   http://coltekin.net/cagri/
