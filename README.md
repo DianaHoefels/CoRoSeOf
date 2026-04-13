@@ -1,4 +1,4 @@
-## CoRoSeOf. An Annotated Corpus of Romanian Sexist and Offensive Language
+## CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Language
 
 CoRoSeOf is a Romanian corpus of social media content annotated for sexist and offensive language. It contains approximately **40,000 samples**, of which around **10% are labeled as sexist** and **11% as offensive**.
 
