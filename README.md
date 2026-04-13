@@ -1,4 +1,4 @@
-## $\color{red}{CoR}\color{yellow}{oS}\color{blue}{eOf}$: An annotated Corpus of Romanian Sexist and Offensive Language
+## CoRoSeOf: An annotated Corpus of Romanian Sexist and Offensive Language
 
  A collection of Romanian sexist and offensive samples, including approximately 40k samples, of which ≈10% are sexist, and ≈11% offensive.
 
