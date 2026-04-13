@@ -2,8 +2,6 @@
 
  A collection of Romanian sexist and offensive samples, including approximately 40k samples, of which ≈10% are sexist, and ≈11% offensive.
 
-## New: More research on sexism employing CoRoSeOf: TBA Soon !!!
-
 ## Folder Structure
 
 This project is organized into the following folders:
