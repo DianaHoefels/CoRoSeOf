@@ -1,76 +1,199 @@
-## CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Language
+# CoRoSeOf
+### A Large-Scale Annotated Corpus of Romanian Sexist and Offensive Language
 
-CoRoSeOf is a Romanian corpus of social media content annotated for sexist and offensive language. It contains approximately **40,000 samples**, of which around **10% are labeled as sexist** and **11% as offensive**.
+<p align="center">
 
-To the best of our knowledge, CoRoSeOf is **the first annotated corpus of sexist and offensive language for Romanian**, and **the largest annotated corpus of its kind worldwide**.
+![License](https://img.shields.io/badge/License-CC--BY--SA-blue.svg)
+![LREC 2022](https://img.shields.io/badge/LREC-2022-success)
+![Language](https://img.shields.io/badge/Language-Romanian-red)
+![Samples](https://img.shields.io/badge/Samples-39,245-orange)
 
-## Dataset Format
+</p>
 
-The corpus includes the following columns:
+<p align="center">
+<strong>LREC 2022</strong> • <strong>39,245 Manually Annotated Tweets</strong> • <strong>CC BY-SA License</strong>
+</p>
 
-- **ID**
-- **Sample**
-- **Text**
-- **Annotator 1**
-- **Gender 1**
-- **Answer 1**
-- **Annotator 2**
-- **Gender 2**
-- **Answer 2**
-- **Annotator 3**
-- **Gender 3**
-- **Answer 3**
-- **Majority Vote**
-- **Final Labels**
+---
 
-## Folder Structure
+## Overview
 
-This repository is organized as follows:
+**CoRoSeOf** is a large-scale corpus of Romanian Twitter posts manually annotated for **sexist** and **offensive** language. Developed to support research in abusive language detection and Romanian Natural Language Processing, the corpus consists of **39,245 tweets**, each independently annotated by multiple human annotators following comprehensive annotation guidelines.
 
-- **corpus/**, contains tweet IDs, sampling technique, annotator IDs and gender, non-aggregated annotations, majority-vote labels, and final labels
-- **docs/**, contains the annotation guidelines and the keyword lists used to collect the data
+To the best of our knowledge, CoRoSeOf is:
 
-## Authors
+- 🇷🇴 the **first publicly available Romanian corpus** annotated for both **sexist** and **offensive** language;
+- 🌍 one of the **largest manually annotated datasets** for sexism detection worldwide;
+- 🔓 released under the **CC BY-SA** license to promote open and reproducible research.
 
-- **Diana Constantina Höfels**  
-  diana.hoefels@gmail.com
+---
 
-- **Dr. Çağrı Çöltekin**  
-  http://coltekin.net/cagri/
+## Highlights
 
-- **Dr. Irina Diana Mădroane**  
-  irina.madroane@e-uvt.ro
+- 🇷🇴 **Language:** Romanian
+- 📚 **39,245 manually annotated tweets**
+- 👥 **Three independent annotators** per sample
+- 🏷️ **Sexism and offensiveness annotations**
+- 📄 **Published at LREC 2022**
+- 🔓 **Openly available under CC BY-SA**
 
-## License
+---
 
-The corpus is distributed under the terms of the [CC BY-SA license](https://github.com/DianaHoefels/CoRoSeOf/blob/main/LICENSE).
+## Dataset Statistics
 
-## Paper
+| Property | Value |
+|-----------|------:|
+| **Language** | Romanian |
+| **Domain** | Twitter |
+| **Total Samples** | **39,245** |
+| **Sexist Samples** | ~10% |
+| **Offensive Samples** | ~11% |
+| **Annotation** | Three independent human annotators |
+| **Final Labels** | Majority vote + expert verification |
 
-This dataset was presented at **LREC 2022**:
+---
 
-**Hoefels, D. C., Çöltekin, Ç., & Mădroane, I. D. (2022). _CoRoSeOf. An Annotated Corpus of Romanian Sexist and Offensive Tweets_.**  
-[Read the paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.243.pdf)
+## Dataset Structure
 
-If you use this corpus in your research, please cite:
+Each entry in the corpus contains the following information:
 
+| Column | Description |
+|---------|-------------|
+| `ID` | Unique sample identifier |
+| `Sample` | Original tweet identifier |
+| `Text` | Tweet text |
+| `Annotator 1–3` | Annotator identifiers |
+| `Gender 1–3` | Annotator gender |
+| `Answer 1–3` | Individual annotations |
+| `Majority Vote` | Aggregated label |
+| `Final Labels` | Final curated annotation |
+
+---
+
+## Repository Structure
+
+```text
+CoRoSeOf/
+├── corpus/
+│   ├── tweet IDs
+│   ├── sampling information
+│   ├── annotator metadata
+│   ├── individual annotations
+│   ├── majority-vote labels
+│   └── final labels
+│
+├── docs/
+│   ├── annotation guidelines
+│   └── keyword lists used for data collection
+│
+└── LICENSE
 ```
 
-@InProceedings{hoefels-ltekin-mdroane:2022:LREC,
-  author    = {Hoefels, Diana Constantina,  Çöltekin, Çağrı  and  Mădroane, Irina Diana},
-  title     = {CoRoSeOf - An Annotated Corpus of Romanian Sexist and Offensive Tweets},
-  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
-  month          = {June},
-  year           = {2022},
-  address        = {Marseille, France},
-  publisher      = {European Language Resources Association},
+---
+
+## Publication
+
+This corpus was introduced in:
+
+> **Hoefels, D. C., Çöltekin, Ç., & Mădroane, I. D. (2022).**  
+> **CoRoSeOf: An Annotated Corpus of Romanian Sexist and Offensive Tweets.**  
+> *Proceedings of the Language Resources and Evaluation Conference (LREC 2022), Marseille, France.*
+
+📄 **Paper**  
+http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.243.pdf
+
+📚 **ACL Anthology**  
+https://aclanthology.org/2022.lrec-1.243/
+
+---
+
+## Citation
+
+If you use **CoRoSeOf** in your research, please cite:
+
+```bibtex
+@inproceedings{hoefels-ltekin-mdroane-2022-lrec,
+  author    = {Hoefels, Diana Constantina and
+               Çöltekin, Çağrı and
+               Mădroane, Irina Diana},
+  title     = {CoRoSeOf: An Annotated Corpus of Romanian Sexist and Offensive Tweets},
+  booktitle = {Proceedings of the Language Resources and Evaluation Conference},
+  year      = {2022},
+  month     = jun,
+  address   = {Marseille, France},
+  publisher = {European Language Resources Association},
   pages     = {2269--2281},
-  abstract  = {This paper introduces CoRoSeOf, a large corpus of Romanian social media manually annotated for sexist and offensive language. We describe the annotation process of the corpus, provide initial analyses, and baseline classification results for sexism detection on this data set. The resulting corpus contains 39 245 tweets, annotated by multiple annotators (with an agreement rate of Fleissâ€™Îº= 0.45), following the sexist label set of a recent study. The automatic sexism detection yields scores similar to some of the earlier studies (macro averaged F1 score of 83.07\% on binary classification task). We release the corpus with a permissive license.},
   url       = {https://aclanthology.org/2022.lrec-1.243}
 }
 ```
+
+---
+
+## Research Applications
+
+CoRoSeOf supports research in:
+
+- Abusive Language Detection
+- Offensive Language Identification
+- Sexism Detection
+- Hate Speech Detection
+- Toxicity Classification
+- Bias and Fairness in NLP
+- Romanian Natural Language Processing
+- Computational Social Science
+- Large Language Model Evaluation
+- Benchmarking Transformer and Large Language Models
+
+---
+
+## Authors
+
+**Diana Constantina Höfels**  
+📧 diana.hoefels@gmail.com
+
+**Dr. Çağrı Çöltekin**  
+🌐 http://coltekin.net/cagri/
+
+**Dr. Irina Diana Mădroane**  
+📧 irina.madroane@e-uvt.ro
+
+---
+
+## License
+
+This dataset is distributed under the **Creative Commons Attribution-ShareAlike (CC BY-SA)** license.
+
+For details, see the [LICENSE](LICENSE) file.
+
+---
+
 ## Acknowledgements
 
-The annotators team (in alphabetical order), Anamaria Andrei, Raluca Ardeaun, Edward Bojboi, Octavia Cojocaru, Cristiana Giurcă, Costel Olaru, Roberta Recalo, Diana Stanciu, Tiberiu Tomescu and Carmen Tuns, from [Interdisciplinary Center of Gender Studies - West University of Timișoara.](www.genderstudies.uvt.ro)
+We gratefully acknowledge the contribution of the annotation team from the **Interdisciplinary Center of Gender Studies, West University of Timișoara**:
 
-This study utilized Twitter data sets and the content provided remains subject to the terms and conditions of Twitter [Twitter's Developer Agreement & Policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy), and must agree to the [Twitter Terms of Service, Privacy Policy](https://twitter.com/en/tos), [Developer Agreement](https://developer.twitter.com/en/developer-terms/agreement), and [Developer Policy](https://developer.twitter.com/en/developer-terms/policy).
+Anamaria Andrei • Raluca Ardeaun • Edward Bojboi • Octavia Cojocaru • Cristiana Giurcă • Costel Olaru • Roberta Recalo • Diana Stanciu • Tiberiu Tomescu • Carmen Tuns
+
+---
+
+## Twitter Data Notice
+
+This dataset contains Twitter-derived content and is distributed in accordance with Twitter's Developer Agreement and Policy.
+
+Users of this corpus are responsible for complying with the following terms when accessing or redistributing Twitter content:
+
+- Twitter Terms of Service
+- Twitter Privacy Policy
+- Twitter Developer Agreement
+- Twitter Developer Policy
+
+---
+
+## Contributing
+
+Bug reports, suggestions, and research collaborations are welcome. Please open an issue or submit a pull request if you identify errors or have ideas for improving the repository.
+
+---
+
+## Citation Reminder
+
+If **CoRoSeOf** contributes to your research, please consider citing the accompanying **LREC 2022** publication.
